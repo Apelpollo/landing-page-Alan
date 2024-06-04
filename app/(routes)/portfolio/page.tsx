@@ -3,8 +3,7 @@ import Link from "next/link";
 
 import { dataPortfolio } from "../../../data";
 
-// import AvatarPortfolio from "@/components/ui/avatar-portfolio";
-// import CircleImage from "@/components/ui/circle-image";
+
 import TransitionPage from "@/components/ui/TranstionPage";
 import ContainerPage from "@/components/ui/container-page";
 import PortfolioBox from "@/components/ui/portfolioBoxProps";

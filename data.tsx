@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech,Github,Mail ,MessageCircleMore,File, Download   } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -65,59 +65,61 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "",
-        description: "",
-        date: "sep 2023 ",
+        title: "universidad tecnologica de chihuahua",
+        subtitle: "TSU ",
+        description: "termine mi tsu(Tecnico superior universitario) en la especialidad tecnnologias de la informacion en el Area: Desarrollo de software Multiplataformas",
+        date: "sep 2021-23 ",
     },
     {
         id: 2,
-        title: "",
-        subtitle: "",
-        description: "",
-        date: "May 2021",
+        title: "Frond-end",
+        subtitle: "diseño UX/UI",
+        description: "Diseñé y desarrollé interfaces de usuario utilizando React y Material-UI, mejorando la experiencia del usuario en un 30%. crean un menu el cual te permita navegar facilmente. ",
+        
+        
+        date: "sep 2023-24",
     },
     {
         id: 3,
-        title: "",
-        subtitle: "",
-        description: "",
+        title: "Proyectos",
+        subtitle: "happybara",
+        description: "Desarrollé una plataforma innovadora que ayuda a los usuarios a describir sus emociones a través de una interfaz amigable y accesible para todas las edades. Cada emoción se representa mediante la mascota de la página y una paleta de colores intuitiva, lo que facilita la identificación y expresión de las emociones de manera visual y comprensible.",
         date: "Ago 2019",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    // {
+    //     id: 4,
+    //     title: "Prácticas Grado",
+    //     subtitle: "WebWizards Inc.",
+    //     description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
+    //     date: "Mar 2018",
+    // },
 ]
 
 export const dataCounter = [
     {
         id: 0,
         endCounter: 6,
-        text: " mese de experiencia",
+        text: " meses de experiencia laboral",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: "",
-        text: "",
+        endCounter: 3,
+        text: "años de desarrollo de software",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: "",
-        text: "",
+        endCounter: 5,
+        text: "Projectos realizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: "",
-        endCounter: "",
+        endCounter: "-",
         text: "",
         lineRight: false,
         lineRightMobile: false,
@@ -155,32 +157,32 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
+        title: "HappyBara",
+        image: "/imagen1.png",
+        urlGithub: "https://github.com/Apelpollo/happybara",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "juice animation",
+        image: "/imagen2.png",
+        urlGithub: "https://github.com/Apelpollo/juice",
+        urlDemo: "https://juice-animation.netlify.app/",
     },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    // {
+    //     id: 3,
+    //     title: "Estrategias Web",
+    //     image: "/image-3.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 4,
+    //     title: "Ideas Creativas",
+    //     image: "/image-4.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
   
 ];
 
@@ -227,4 +229,27 @@ export const dataTestimonials = [
             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
         imageUrl: "/profile6.png",
     },
+];
+export const contact =[
+{
+    id:1,
+    logo:<Mail size={40} strokeWidth={1} />,
+    urlsite:"mailto:alanerives08@gmail.com",
+},
+{
+    id:2,
+    logo: <Github size={40} strokeWidth={1}/> ,
+    urlsite:"https://github.com/Apelpollo",
+},
+{
+    id:3,
+    logo: <MessageCircleMore  size={40} strokeWidth={1}/> ,
+    urlsite:"https://wa.me/526143968333",
+},
+// {
+//     id:4,
+//     logo: <File  size={30} strokeWidth={1}/> ,
+//     urlsite:"/tsu.Alan paul Erives Lujan software developer" ,
+// },
+
 ];

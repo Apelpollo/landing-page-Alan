@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./button";
+
 interface PortfolioBoxProps {
     data: {
         id: number,
@@ -31,18 +32,18 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                 <Link
                     href={urlGithub}
                     target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
+                    className="p-2 transition duration-150 rounded-lg bg-purple hover:bg-purple-900"
                 >
                     Github
                 </Link>
 
-                <Button
-                    
+                <Link
+                    href={urlDemo}
+                    target="_blank"
                     className="p-2 transition duration-150 rounded-lg bg-purple hover:bg-purple-900"
-                ><Link href="urlDemo">
-                    Live demo
-                    </Link>
-                </Button>
+                >
+                    Github
+                </Link>
             </div>
         </div>
     );
