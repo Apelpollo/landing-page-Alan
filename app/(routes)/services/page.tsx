@@ -32,7 +32,7 @@ const ServicesPage = () => {
 
                         ))}
 
-                        <a href="/tsu.Alan paul Erives Lujan software developer.pdf" download><File size={40} strokeWidth={1}> </File></a>
+                        <a href="/2.pdf" download><File size={40} strokeWidth={1}> </File></a>
                        
                     </div>
                 </div>

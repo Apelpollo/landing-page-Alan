@@ -98,8 +98,8 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 6,
-        text: " meses de experiencia laboral",
+        endCounter: 1,
+        text: " años de experiencia laboral",
         lineRight: true,
         lineRightMobile: true,
     },
@@ -113,7 +113,7 @@ export const dataCounter = [
     {
         id: 2,
         endCounter: 5,
-        text: "Projectos realizados",
+        text: "Proyectos realizados",
         lineRight: true,
         lineRightMobile: true,
     },
