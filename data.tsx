@@ -169,13 +169,13 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/Apelpollo/juice",
         urlDemo: "https://juice-animation.netlify.app/",
     },
-    // {
-    //     id: 3,
-    //     title: "Estrategias Web",
-    //     image: "/image-3.jpg",
-    //     urlGithub: "#!",
-    //     urlDemo: "#!",
-    // },
+    {
+        id: 3,
+        title: "Figma profile UX/UI",
+        image: "/project_figma.png",
+        urlGithub: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+        urlDemo: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+    },
     // {
     //     id: 4,
     //     title: "Ideas Creativas",
