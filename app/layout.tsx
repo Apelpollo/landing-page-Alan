@@ -8,6 +8,7 @@ import 'swiper/css/scrollbar';
 
 import Navbar from "@/components/ui/Navbar";
 import Header from "@/components/ui/header";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -24,9 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-        <Navbar />
-        <Header />
-        {children}
+        <LanguageProvider>
+          <Navbar />
+          <Header />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );
