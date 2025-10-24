@@ -179,7 +179,7 @@ export const dataCounter = {
         },
         {
             id: 2,
-            endCounter: 5,
+            endCounter: 7,
             text: "Proyectos realizados",
             lineRight: true,
             lineRightMobile: true,
@@ -209,7 +209,7 @@ export const dataCounter = {
         },
         {
             id: 2,
-            endCounter: 5,
+            endCounter: 7,
             text: "Projects completed",
             lineRight: true,
             lineRightMobile: true,
@@ -286,46 +286,98 @@ export const dataPortfolio = {
         {
             id: 1,
             title: "HappyBara",
+            subtitle: "Plataforma de salud mental",
+            description: "Hecho con JavaScript vanilla, PHP, MySQL con XAMPP y Bootstrap, HTML5, CSS para salud mental",
             image: "/imagen1.png",
             urlGithub: "https://github.com/Apelpollo/happybara",
             urlDemo: "#!",
+            type: "development"
         },
         {
             id: 2,
             title: "Animación Juice",
+            subtitle: "Animación CSS",
+            description: "Animación interactiva creada con CSS puro que demuestra habilidades en animaciones web",
             image: "/imagen2.png",
             urlGithub: "https://github.com/Apelpollo/juice",
             urlDemo: "https://juice-animation.netlify.app/",
+            type: "development"
         },
         {
             id: 3,
             title: "Perfil Figma UX/UI",
+            subtitle: "Diseño de mobile-mock",
+            description: "Diseño de mobile-mock realizado en Figma con enfoque en UX/UI",
             image: "/project_figma.png",
-            urlGithub: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
-            urlDemo: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+            urlFigma: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+            type: "design"
+        },
+        {
+            id: 4,
+            title: "Front-end",
+            subtitle: "Diseño UX/UI",
+            description: "Home de una plataforma de streaming con concepto de las películas de Tim Burton",
+            image: "/imagentim.png",
+            urlFigma: "https://www.figma.com/proto/4oLenoFSZ2SLOezyUZTuUO/profile-v1?node-id=55-104&t=Ad0fDAzl0VRbXa2L-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+            type: "design"
+        },
+        {
+            id: 5,
+            title: "Design Thinking",
+            subtitle: "Wireframing",
+            description: "Profile manejo de colores y wireframing",
+            image: "/imagendesi.png",
+            urlFigma: "https://www.figma.com/proto/4oLenoFSZ2SLOezyUZTuUO/profile-v1?node-id=4-386&t=Ad0fDAzl0VRbXa2L-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+            type: "design"
         },
     ],
     en: [
         {
             id: 1,
             title: "HappyBara",
+            subtitle: "Mental health platform",
+            description: "Made with vanilla JavaScript, PHP, MySQL with XAMPP and Bootstrap, HTML5, CSS for mental health",
             image: "/imagen1.png",
             urlGithub: "https://github.com/Apelpollo/happybara",
             urlDemo: "#!",
+            type: "development"
         },
         {
             id: 2,
             title: "Juice Animation",
+            subtitle: "CSS Animation",
+            description: "Interactive animation created with pure CSS demonstrating web animation skills",
             image: "/imagen2.png",
             urlGithub: "https://github.com/Apelpollo/juice",
             urlDemo: "https://juice-animation.netlify.app/",
+            type: "development"
         },
         {
             id: 3,
             title: "Figma Profile UX/UI",
+            subtitle: "Mobile-mock design",
+            description: "Mobile-mock design made in Figma with UX/UI focus",
             image: "/project_figma.png",
-            urlGithub: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
-            urlDemo: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+            urlFigma: "https://www.figma.com/proto/QA0XXU0AIQQUOdNSsIcJma/Mobile-mock-Alan-Erives?node-id=0-1&t=LMZmemQkrLaM5Tvd-1",
+            type: "design"
+        },
+        {
+            id: 4,
+            title: "Front-end",
+            subtitle: "UX/UI Design",
+            description: "Home of a streaming platform with Tim Burton movies concept",
+            image: "/imagentim.png",
+            urlFigma: "https://www.figma.com/proto/4oLenoFSZ2SLOezyUZTuUO/profile-v1?node-id=55-104&t=Ad0fDAzl0VRbXa2L-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+            type: "design"
+        },
+        {
+            id: 5,
+            title: "Design Thinking",
+            subtitle: "Wireframing",
+            description: "Profile color management and wireframing",
+            image: "/imagendesi.png",
+            urlFigma: "https://www.figma.com/proto/4oLenoFSZ2SLOezyUZTuUO/profile-v1?node-id=4-386&t=Ad0fDAzl0VRbXa2L-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
+            type: "design"
         },
     ]
 };
