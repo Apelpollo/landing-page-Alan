@@ -281,7 +281,30 @@ export const serviceData = {
     ]
 };
 
-export const dataPortfolio = {
+export const dataPortfolio: {
+    es: Array<{
+        id: number,
+        title: string,
+        subtitle?: string,
+        description?: string,
+        image: string,
+        urlGithub?: string,
+        urlDemo?: string,
+        urlFigma?: string,
+        type: "development" | "design"
+    }>,
+    en: Array<{
+        id: number,
+        title: string,
+        subtitle?: string,
+        description?: string,
+        image: string,
+        urlGithub?: string,
+        urlDemo?: string,
+        urlFigma?: string,
+        type: "development" | "design"
+    }>
+} = {
     es: [
         {
             id: 1,
