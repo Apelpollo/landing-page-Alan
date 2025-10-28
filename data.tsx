@@ -308,12 +308,12 @@ export const dataPortfolio: {
     es: [
         {
             id: 1,
-            title: "HappyBara",
-            subtitle: "Plataforma de salud mental",
-            description: "Hecho con JavaScript vanilla, PHP, MySQL con XAMPP y Bootstrap, HTML5, CSS para salud mental",
-            image: "/imagen1.png",
-            urlGithub: "https://github.com/Apelpollo/happybara",
-            urlDemo: "#!",
+            title: "Dashboard S.O.L.I.D",
+            subtitle: "Dashboard con GraphQL",
+            description: "Proyecto de react con GraphQL y con arquitectura solid",
+            image: "/Imagendash.png",
+            urlGithub: "https://github.com/Apelpollo/dashboardSolid",
+            urlDemo: "https://dashboardalanerives.netlify.app/",
             type: "development"
         },
         {
@@ -357,12 +357,12 @@ export const dataPortfolio: {
     en: [
         {
             id: 1,
-            title: "HappyBara",
-            subtitle: "Mental health platform",
-            description: "Made with vanilla JavaScript, PHP, MySQL with XAMPP and Bootstrap, HTML5, CSS for mental health",
-            image: "/imagen1.png",
-            urlGithub: "https://github.com/Apelpollo/happybara",
-            urlDemo: "#!",
+            title: "Dashboard S.O.L.I.D",
+            subtitle: "Dashboard with GraphQL",
+            description: "React project with GraphQL and solid architecture",
+            image: "/Imagendash.png",
+            urlGithub: "https://github.com/Apelpollo/dashboardSolid",
+            urlDemo: "https://dashboardalanerives.netlify.app/",
             type: "development"
         },
         {
