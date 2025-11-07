@@ -318,6 +318,16 @@ export const dataPortfolio: {
         },
         {
             id: 2,
+            title: "E-commerce Edu",
+            subtitle: "Landing page educativa",
+            description: "Es un sitio web construido con HTML5, CSS3, JavaScript y animaciones con GSAP Motion.",
+            image: "/ecommerce.png",
+            urlGithub: "https://github.com/Apelpollo/E-commerce_academia",
+            urlDemo: "https://e-commerce-academia-1w9t5wpxu-apelpollos-projects.vercel.app/",
+            type: "development"
+        },
+        {
+            id: 3,
             title: "Animación Juice",
             subtitle: "Animación CSS",
             description: "Animación interactiva creada con CSS puro que demuestra habilidades en animaciones web",
@@ -327,7 +337,7 @@ export const dataPortfolio: {
             type: "development"
         },
         {
-            id: 3,
+            id: 4,
             title: "Perfil Figma UX/UI",
             subtitle: "Diseño de mobile-mock",
             description: "Diseño de mobile-mock realizado en Figma con enfoque en UX/UI",
@@ -336,7 +346,7 @@ export const dataPortfolio: {
             type: "design"
         },
         {
-            id: 4,
+            id: 5,
             title: "Front-end",
             subtitle: "Diseño UX/UI",
             description: "Home de una plataforma de streaming con concepto de las películas de Tim Burton",
@@ -345,7 +355,7 @@ export const dataPortfolio: {
             type: "design"
         },
         {
-            id: 5,
+            id: 6,
             title: "Design Thinking",
             subtitle: "Wireframing",
             description: "Profile manejo de colores y wireframing",
@@ -367,6 +377,16 @@ export const dataPortfolio: {
         },
         {
             id: 2,
+            title: "E-commerce Edu",
+            subtitle: "E-commerce landing page",
+            description: "A website built with HTML5, CSS3, JavaScript, and GSAP Motion animations.",
+            image: "/ecommerce.png",
+            urlGithub: "https://github.com/Apelpollo/E-commerce_academia",
+            urlDemo: "https://e-commerce-academia-1w9t5wpxu-apelpollos-projects.vercel.app/",
+            type: "development"
+        },
+        {
+            id: 3,
             title: "Juice Animation",
             subtitle: "CSS Animation",
             description: "Interactive animation created with pure CSS demonstrating web animation skills",
@@ -376,7 +396,7 @@ export const dataPortfolio: {
             type: "development"
         },
         {
-            id: 3,
+            id: 4,
             title: "Figma Profile UX/UI",
             subtitle: "Mobile-mock design",
             description: "Mobile-mock design made in Figma with UX/UI focus",
@@ -385,7 +405,7 @@ export const dataPortfolio: {
             type: "design"
         },
         {
-            id: 4,
+            id: 5,
             title: "Front-end",
             subtitle: "UX/UI Design",
             description: "Home of a streaming platform with Tim Burton movies concept",
@@ -394,7 +414,7 @@ export const dataPortfolio: {
             type: "design"
         },
         {
-            id: 5,
+            id: 6,
             title: "Design Thinking",
             subtitle: "Wireframing",
             description: "Profile color management and wireframing",
